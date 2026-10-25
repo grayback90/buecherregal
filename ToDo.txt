@@ -2,20 +2,77 @@
 *
 * file: ToDo.txt
 * date: 25.10.2026
-* version: 0.1
+* version: 0.2
 *
 * Functions for the App I want to implement.
+* Work top to bottom. One step at a time.
+* Mark finished steps with [x].
 *
 **********************************************/
 
-1. display Bookshelf
-2. user can manually create Bookshelfs (read 2026, read 2025, tbr, want to buy and so on)
-3. swipe to switch between Bookshelf
-4. Put some dummy-books in the shelf
-5. implement a book-library to search for books and cover
-6. Use the camera to scan the ISBN-code
-7. some infos to the book (when startet, when finished, Display pages, short summary, cover)
-8. Login with Google Account
-9. safe data in Google drive
-10. put some decorations in the shelf to make them look nicer
-11. statistics (choose which Bookshelfs will be in the statistics, so how many pages i have read, what was the biggest and what the smallest book and so on)
+
+=== PHASE 1: Basics ===
+
+[ ] 1. Project setup
+      Create the Android Studio project and run the empty app
+      on the emulator or on my phone.
+
+[ ] 2. Data model
+      Define what a Bookshelf and a Book are (title, author, pages ...).
+
+[ ] 3. Display one bookshelf
+      Show a bookshelf with some dummy books on the main screen.
+
+[ ] 4. Create bookshelves
+      I can create my own bookshelves
+      (for example: read 2026, read 2025, tbr, want to buy).
+
+[ ] 5. Swipe between bookshelves
+      Swipe left and right to switch to the next bookshelf.
+
+[ ] 6. Save data on the device
+      Bookshelves and books stay saved after closing the app.
+
+[ ] 7. Add books manually
+      Add a book by typing in title, author and pages.
+
+[ ] 8. Book details
+      A detail screen for each book:
+      - cover
+      - date started
+      - date finished
+      - number of pages
+      - short summary
+
+
+=== PHASE 2: Find books faster ===
+
+[ ] 9. Book search
+      Connect a book library to search for books and covers.
+
+[ ] 10. ISBN scan
+      Use the camera to scan the ISBN barcode.
+      The book data is filled in automatically.
+
+
+=== PHASE 3: Account and cloud ===
+
+[ ] 11. Login with Google
+      Sign in with a Google account.
+
+[ ] 12. Cloud storage
+      Save the data online (Google Drive),
+      so nothing is lost when the phone breaks or is replaced.
+
+
+=== PHASE 4: Extras ===
+
+[ ] 13. Statistics
+      Choose which bookshelves count.
+      Show for example:
+      - total pages read
+      - biggest book
+      - smallest book
+
+[ ] 14. Decorations
+      Put some decorations in the shelf to make it look nicer.
